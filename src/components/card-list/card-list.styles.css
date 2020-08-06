@@ -2,11 +2,7 @@
     width: 85vw;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, 300px);
     grid-gap: 20px;
     background-color: rgb(231, 236, 229);
-}
-
-.bc {
-    background-color: blue;
 }
